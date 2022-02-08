@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Solicitud</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+  <body>
+    <form action="" class="formulario">
+      <img src="logo.jpg" class="imgLogo" />
+
+      <h1 class="formulario__titulo">Coopesangabriel</h1>
+      <h3 class="formulario__subtitulo">Solicitud</h3>
+      <p class="formulario__parrafo">
+        Llena este formulario para realizar el estudio.
+      </p>
+
+      <h3>Consulta de crédito</h3>
+
+      <label for="de" class="formulario__label">De:</label>
+      <input
+        id="de"
+        type="text"
+        class="formulario__input"
+        placeholder=""
+      />
+
+      <label for="para" class="formulario__label">Para:</label>
+      <input
+        id="para"
+        type="text"
+        class="formulario__input"
+        placeholder=""
+      />
+
+      <label for="selectcred" class="formulario__label"
+        >Producto solicitado</label>
+      <select id="selectcred" name="listaselectcred" class="formulario__input">
+        <option>Cash</option>
+        <option>TV</option>
+        <option>Odonto Red</option>
+        <option>Opti Red</option>
+      </select>
+
+
+      <h3>Datos de cliente</h3>
+      <label for="cliente" class="formulario__label">Nombre completo</label>
+      <input
+        id="cliente"
+        type="text"
+        class="formulario__input"
+        placeholder="Indica cuál es su nombre completo"
+      />
+
+      <label for="cedula" class="formulario__label">Cédula</label>
+      <input
+        id="cedula"
+        type="text"
+        class="formulario__input"
+        placeholder="Indica cuál es su cédula"
+      />
+
+      <label for="correo" class="formulario__label">Correo electónico</label>
+      <input
+        id="correo"
+        type="text"
+        class="formulario__input"
+        placeholder="Indica cuál es su correo electrónico"
+      />
+
+      <label for="telefono" class="formulario__label">Número de teléfono</label>
+      <input
+        id="telefono"
+        type="text"
+        class="formulario__input"
+        placeholder="Indica cuál es su teléfono"
+      />
+
+      <label for="provincia" class="formulario__label">Provincia</label>
+      <select id="provincia" name="listaprovincia" class="formulario__input">
+        <option>Alajuela</option>
+        <option>Cartago</option>
+        <option>San José</option>
+        <option>Guanacaste</option>
+        <option>Heredia</option>
+        <option>Puntarenas</option>
+        <option>Limón</option>
+      </select>
+
+      <label for="canton" class="formulario__label">Cantón</label>
+      <input
+        id="canton"
+        type="text"
+        class="formulario__input"
+        placeholder="Indica cuál es el cantón"
+      />
+
+      <label for="distrito" class="formulario__label">Distrito</label>
+      <input
+        id="distrito"
+        type="text"
+        class="formulario__input"
+        placeholder="Indica cuál es el distrito"
+      />
+
+      <label for="direccion" class="formulario__label">Dirección exacta</label>
+      <input
+        id="direccion"
+        type="text"
+        class="formulario__input"
+        placeholder="Indica cuál es su dirección exacta"
+      />
+      <label for="institucion" class="formulario__label">Institución</label>
+      <input
+        id="institucion"
+        type="text"
+        class="formulario__input"
+        placeholder="Indique para que institución labora"
+      />
+
+      <label for="producto" class="formulario__label"
+        >Estado laboral</label
+      >
+      <select id="producto" name="listaproductos" class="formulario__input">
+        <option>Propiedad</option>
+        <option>Interino</option>
+      </select>
+
+      <label for="monto" class="formulario__label">Monto</label>
+      <input
+        id="monto"
+        type="text"
+        class="formulario__input"
+        placeholder="Indique el monto que desea solicitar"
+      />
+
+      
+      <div id="respuesta"></div>
+
+      <button id="submit" class="formulario__submit">Enviar a WhatsApp</button>
+    </form>
+    <script src="js/form.js"></script>
+  </body>
+</html>
